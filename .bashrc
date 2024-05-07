@@ -28,6 +28,7 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
 fi
 
+source ~/.bash_git
 
 # ------------------------------ prompt ------------------------------
 
