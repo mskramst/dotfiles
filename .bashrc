@@ -1,3 +1,7 @@
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
+
 #  ----------------------------- setup -------------------------------
 export USER="${USER:-$(whoami)}"
 export GITUSER="$USER"
